@@ -153,6 +153,19 @@ nav ul li:hover .dropdown {
     nav ul li a {
         padding: 15px;
     }
+
+    /* Responsive Contact Form */
+    .contact__container1 {
+        width: 100%;
+        margin-left: 0;
+        padding: 10px;
+    }
+
+    .contact__form1 {
+        width: 100%;
+        margin-left: 0;
+        padding: 0;
+    }
 }
 
 /* Additional styles for sections and footer */
@@ -251,7 +264,7 @@ section {
 
 .event-image {
     width: 100%;
-    height: auto;
+    height: 150px;
 }
 
 .event h3 {
@@ -267,14 +280,14 @@ section {
     display: inline-block;
     margin-top: 10px;
     padding: 10px 15px;
-    background-color: #007bff;
+    background-color: #00b33c;
     color: #fff;
     text-decoration: none;
     border-radius: 5px;
 }
 
 .button-buy:hover {
-    background-color: #0056b3;
+    background-color: #00b33c;
 }
 
 
@@ -288,7 +301,7 @@ section {
 .event1 {
     display: flex;
     align-items: center;
-    background-color: #b18484;
+    background-color: #cf6c6c;
     border: 1px solid #ddd;
     border-radius: 8px;
     padding: 20px;
@@ -311,7 +324,7 @@ section {
 .button-buy1 {
     margin-top: 10px;
     padding: 10px 15px;
-    background-color: #007bff;
+    background-color: #00b33c;
     color: #fff;
     text-decoration: none;
     border-radius: 5px;
@@ -320,16 +333,15 @@ section {
 }
 
 .button-buy:hover {
-    background-color: #0056b3;
+    background-color: #00b33c;
 }
 
 /*contact form above footer*/
-.contact__container1 {
+.contact__container1 .container1{
     flex: 1;
-    padding: 20px;
-    background-color: #cac4c4;
-    border-top: 1px solid #ddd;
-    width: 70%;
+    background-color:#c02424c0;
+    border-top: 1px solid #dddddd7c;
+    width: 100%;
     align-content: center;
     margin-left: 250px;
 }
@@ -351,7 +363,7 @@ section {
 
 .contact__form1 button {
     padding: 10px;
-    background-color: #007bff;
+    background-color: #00b33c;
     color: white;
     border: none;
     border-radius: 4px;
@@ -359,7 +371,7 @@ section {
 }
 
 .contact__form1 button:hover {
-    background-color: #0056b3;
+    background-color: #cf6c6c;
 }
 
 footer {
