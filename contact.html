@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Events Host</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <script crossorigin src="https://unpkg.com/react@17/umd/react.production.min.js"></script>
+    <script crossorigin src="https://unpkg.com/react-dom@17/umd/react-dom.production.min.js"></script>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo-title">
+                <div class="logo">
+                    <img src="gallery/kisspng-logo-graphic-design-business-royal-enfield-logo-5b5b74b19689d9.9528407115327203056166.png"
+                        alt="Logo">
+                </div>
+            </div>
+            <div class="hamburger" id="hamburger">
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+            </div>
+            <ul class="nav-links" id="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="features.html">Features</a></li>
+                <li>
+                    <a href="#events">Events</a>
+                    <ul class="dropdown">
+                        <li><a href="events.html">Upcoming Events</a></li>
+                        <li><a href="#past-events">Past Events</a></li>
+                        <li><a href="#host-your-event">Host Your Event</a></li>
+                    </ul>
+                </li>
+                <li><a href="contact.html">Contact</a></li>
+                <li class="search">
+                    <a href="#"><i class="fas fa-search"></i></a>
+                    <ul class="dropdown">
+                        <li><a href="#upcoming-events">Upcoming Events</a></li>
+                        <li><a href="#past-events">Past Events</a></li>
+                        <li><a href="#host-your-event">Host Your Event</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+
+    <section id="intro">
+        <h1>Contact Us</h1>
+        <p>Your one-stop solution for hosting and managing events seamlessly.</p>
+    </section>
+
+
+<section>
+<div class="form-container">
+
+    <div class="contact-container">
+        <div class="image-section">
+            <img src="gallery/concert-3387324_1280.jpg" alt="Contact Us" class="contact-image">
+        </div>
+        <div class="form-section">
+            <h2>Get in touch</h2>
+            
+            <form id="contact-form">
+                <div class="form-group">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" rows="5" required></textarea>
+                </div>
+                <button type="submit" class="button-submit">Send Message</button>
+            </form>
+           <div id="form-response" style="display: none;"></div>
+        </div>
+    </div>
+</div>
+</section>
+<footer>
+    <p>&copy; 2024 Events Host. All rights reserved.</p>
+    <div class="social-media">
+        <a href="#"><i class="fab fa-facebook"></i></a>
+        <a href="#"><i class="fab fa-twitter"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+    </div>
+</footer>
+
+<script src="scripts.js"></script>
+
+</body>
+
+</html>
